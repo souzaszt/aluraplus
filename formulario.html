@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0fb5d3af77.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="forms.css">
+    <title>Form</title>
+</head>
+<body>
+    <div id="form">
+        <form action="obrigado.html">
+            <h2 class="title">Cadastre-se</h2>
+
+            <label for="username">Nome:</label>
+            <div class="input">
+                <i class="fa-regular fa-circle-user"></i>
+                <input id="username" name="username" placeholder="Username" type="text">
+            </div>
+
+            <label for="email">E-mail:</label>
+            <div class="input">
+                <i class="fa-regular fa-envelope"></i>
+                <input id="email" name="email" placeholder="Email" type="text">
+            </div>
+
+            <label for="senha">Senha:</label>
+            <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input id="senha" name="senha" placeholder="Password" type="password">
+            </div>
+
+            <label for="rg">RG:</label>
+            <div class="input">
+                <i class="fa-regular fa-circle-user"></i>
+                <input id="username" name="username" placeholder="XX.XXX.XXX-XX" type="text">
+            </div>
+
+
+        <div class="informacoes">
+        <p>Sexo</p>
+        <input type="checkbox" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label>
+        <br>
+        <input type="checkbox" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <br>
+        <input type="checkbox" id="outro" name="genero" value="outro">
+        <label for="outro">Outro</label>
+        <br><br>
+        <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+        <input type="date" name="data_nascimento" id="data_nascimento">
+        </div>
+        <br><br><br>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+        <br>
+        <br>
+        <label for="estado">Estado:</label>
+        <select id="estado" name="estado" required>
+        <option value="acre">AC</option>
+        <option value="alagoas">AL</option>
+        <option value="amapa">AP</option>
+        <option value="amazonas">AM</option>
+        <option value="bahia">BA</option>
+        <option value="ceara">CE</option>
+        <option value="distritofederal">DF</option>
+        <option value="espiritosanto">ES</option>
+        <option value="goias">GO</option>
+        <option value="maranhao">MA</option>
+        <option value="matogrosso">MT</option>
+        <option value="matogrossosul">MS</option>
+        <option value="minasgerais">MG</option>
+        <option value="para">PA</option>
+        <option value="paraiba">PB</option>
+        <option value="parana">PR</option>
+        </select>
+        <br><br>
+    
+<div class="formaspag">
+    <p>Formas de pagamento:</p>
+    <input type="radio" id="feminino" name="genero" value="feminino" required>
+    <label for="feminino">Boleto</label>
+    <br>
+    <input type="radio" id="masculino" name="genero" value="masculino" required>
+    <label for="masculino">Cartão de Crédito</label>
+    <br>
+    <input type="radio" id="outro" name="genero" value="outro" required>
+    <label for="outro">Cartão de Débito</label>
+    <br>
+    <input type="radio" id="outro" name="genero" value="outro" required>
+    <label for="outro">Pix</label>
+    <br><br>
+    </div>
+
+        
+            <div id="botao">
+                <button type="submit">Entrar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
