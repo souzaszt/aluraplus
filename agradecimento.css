@@ -1,0 +1,9 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(0, 0, 76), rgb(0, 0, 0));
+}
+.c { 
+text-align: center;
+color: aliceblue;
+margin-top: 15%;
+}
